@@ -1,0 +1,54 @@
+{
+  "Home": {
+    "featured": "Öne Çıkan Kanallar",
+    "allChannels": "Tüm Kanallar",
+    "recentlyWatched": "Son İzlenenler"
+  },
+  "Auth": {
+    "welcomeBack": "Tekrar Hoşgeldiniz",
+    "enterEmailToSignIn": "Hesabınıza giriş yapmak için e-postanızı girin",
+    "email": "E-posta",
+    "emailPlaceholder": "ad@ornek.com",
+    "password": "Şifre",
+    "signIn": "Giriş Yap",
+    "orContinueWith": "Veya şununla devam et",
+    "dontHaveAccount": "Hesabınız yok mu? Kaydolun",
+    "createAccount": "Hesap oluştur",
+    "enterEmailToCreate": "Hesap oluşturmak için e-postanızı girin",
+    "fullName": "Ad Soyad",
+    "fullNamePlaceholder": "Ahmet Yılmaz",
+    "signUp": "Kaydol",
+    "alreadyHaveAccount": "Zaten hesabınız var mı? Giriş Yapın"
+  },
+  "Contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Bir sorunuz mu var veya yardıma mı ihtiyacınız var? Bizimle iletişime geçin.",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "nameLabel": "İsim",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "E-posta adresiniz",
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Nasıl yardımcı olabiliriz?",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Sorgunuz hakkında daha fazla bilgi verin...",
+    "sendButton": "Mesaj Gönder"
+  },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "channels": "Kanallar",
+    "pricing": "Fiyatlandırma",
+    "contact": "İletişim",
+    "signIn": "Giriş Yap",
+    "signUp": "Kaydol"
+  },
+  "Footer": {
+    "terms": "Şartlar",
+    "privacy": "Gizlilik",
+    "contact": "İletişim",
+    "copyright": "© {year} MyIPTV. Tüm hakları saklıdır."
+  }
+}
+

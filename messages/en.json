@@ -1,0 +1,27 @@
+{
+  "Home": {
+    "welcome": "Your Ultimate IPTV Streaming Solution",
+    "description": "Access thousands of channels and on-demand content from around the world. Stream on any device, anytime, anywhere.",
+    "getStarted": "Get Started",
+    "viewPlans": "View Plans",
+    "locale": "en"
+  },
+  "Navigation": {
+    "home": "Home",
+    "channels": "Channels",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "admin": "Admin Panel",
+    "account": "My Account",
+    "signout": "Sign Out"
+  },
+  "Footer": {
+    "copyright": "© {year} IPTV App. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "Home": {
+    "welcome": "Bienvenue sur IPTV App",
+    "description": "Votre solution ultime de streaming IPTV"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "channels": "Chaînes",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "signin": "Connexion",
+    "signup": "S'inscrire",
+    "admin": "Panneau d'administration",
+    "account": "Mon Compte",
+    "signout": "Déconnexion"
+  },
+  "Footer": {
+    "copyright": "© {year} IPTV App. Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies"
+  }
+}
+
