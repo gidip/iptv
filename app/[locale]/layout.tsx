@@ -1,15 +1,14 @@
 import type React from "react"
-import "../globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { NextIntlClientProvider } from "next-intl"
 import { notFound } from "next/navigation"
+import { NextIntlClientProvider } from "next-intl"
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { AuthProvider } from "@/lib/auth"
-
-export const dynamic = "force-dynamic"
+import { i18n } from "@/lib/i18n-config"
+import "../globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,14 +17,7 @@ export const metadata: Metadata = {
   description: "Your ultimate IPTV streaming solution",
 }
 
-// Define the locales we support
-const locales = ["en", "es", "fr"]
-
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
-}
-
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: {
@@ -33,7 +25,9 @@ export default async function RootLayout({
   params: { locale: string }
 }) {
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale)) notFound()
+  if (!i18n.locales.includes(locale as any)) {
+    notFound()
+  }
 
   let messages
   try {
